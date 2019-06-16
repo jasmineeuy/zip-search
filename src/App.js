@@ -33,6 +33,7 @@ class  App extends React.Component {
     .catch((err)=> console.log(err)); // logs erros
   }
 
+  
 
  render (){
 
@@ -55,6 +56,7 @@ class  App extends React.Component {
       </form>
       
       <div class ="resZ">
+        
           {elems}
 
 
