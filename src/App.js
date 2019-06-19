@@ -24,6 +24,7 @@ class  App extends React.Component {
     event.preventDefault();
     let userInput =event.target[0].value;
     console.log(userInput);
+    
 
     axios.get('http://ctp-zip-api.herokuapp.com/zip/' + userInput)
     .then( (resolve) => {  // called when data is returned
